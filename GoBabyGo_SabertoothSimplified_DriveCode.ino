@@ -31,6 +31,11 @@ int yIN = 4;  //Y axis input
 int MAX_SPEED = 30; //Adjust as needed (Recommend less than 80);
 int POT_NEUTRAL = 40; //Adjust as needed
 
+
+/****************************************************************/
+/* DO NOT EDIT PAST THIS POINT UNLESS EXPLICITLY NEEDED         */
+/****************************************************************/
+
 int prevLeft, prevRight;
 
                                        
