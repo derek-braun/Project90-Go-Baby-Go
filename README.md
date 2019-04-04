@@ -2,28 +2,26 @@
 
 Instructions for modifying variable quantities in the code file GOBABYGO_SabertoothSimplified_DriveCode.ino
 
-*Important note: Do not edit variables or code beyond the commented warning:*
-/****************************************************************/
-/* DO NOT EDIT PAST THIS POINT UNLESS EXPLICITLY NEEDED         */
-/****************************************************************/
-*This code works and unless specific changes are needed, only the variables preceding this comment
-should need to be changed for customizatoin.*
+__Important note: Do not edit variables or code beyond the commented warning:__
+**DO NOT EDIT PAST THIS POINT UNLESS EXPLICITLY NEEDED**
+__This code works and unless specific changes are needed, only the variables preceding this comment
+should need to be changed for customizatoin.__
 
-##Control Method/Option Setup:
+## Control Method/Option Setup:
 Modify the boolean values under this header to specify the control methods for the vehicle.
 
-##Invert Motor Directions:
+## Invert Motor Directions:
 Modify the boolean values under this header to change a motor direction, if it is inverted.
 
-##Analogue Joystick Input Designation:
+## Analogue Joystick Input Designation:
 Modify the integer values under this header to change the pin destinations corresponding to
 the numbered pin locations on the arduino board for the x and y axis inputs from the joystick.
 
-##Button Control Input Designation:
+## Button Control Input Designation:
 Modify the integer values under this header to change the pin destinations corresponding to
 the numbered pin locations on the arduino board for the directional button control inputs.
 
-##Constants:
+## Constants:
 Adjust the max speed integer value in the range from 0 to 127. Based on tests, a value of 
 30-40 is typically sufficient.
 
